@@ -1,0 +1,5 @@
+Added :
+
+1.) I added all the mongo include files in MakeFile.config -> (Search with "@amogh")
+2.) I added -std=c++11 flags in the caffe 'Makefile' -> This is Added as MongoDB requires C++11
+

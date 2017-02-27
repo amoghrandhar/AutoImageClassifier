@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IndividualProject_SVM" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/IndividualProject_SVM" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="../../../../../../usr/local/include/boost" />
+					<Add directory="../../../../../../usr/local/include/opencv" />
+					<Add directory="../../../../../../usr/local/include/opencv2" />
+					<Add directory="../../../../../../usr/local/include/libbson-1.0" />
+					<Add directory="../../../../../../usr/local/include/libmongoc-1.0" />
+					<Add directory="../../../../../../usr/local/include/mongocxx/v_noabi" />
+					<Add directory="../../../../../../usr/local/include/bsoncxx/v_noabi" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../../usr/local/lib/libopencv_xphoto.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_xobjdetect.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_ximgproc.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_xfeatures2d.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_viz.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_videostab.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_videoio.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_video.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_ts.a" />
+					<Add library="../../../../../../usr/local/lib/libopencv_tracking.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_text.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_surface_matching.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_superres.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_structured_light.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_stitching.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_stereo.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_shape.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_sfm.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_saliency.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_rgbd.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_reg.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_plot.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_photo.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_optflow.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_objdetect.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_ml.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_line_descriptor.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_imgproc.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_imgcodecs.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_highgui.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_hdf.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_fuzzy.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_flann.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_features2d.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_face.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_dpm.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_dnn.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_datasets.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudev.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudawarping.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudastereo.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudaoptflow.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudaobjdetect.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudalegacy.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudaimgproc.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudafilters.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudafeatures2d.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudacodec.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudabgsegm.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_cudaarithm.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_core.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_ccalib.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_calib3d.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_bioinspired.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_bgsegm.so" />
+					<Add library="../../../../../../usr/local/lib/libopencv_aruco.so" />
+					<Add library="../../../../../../usr/local/lib/libmongocxx.so" />
+					<Add library="../../../../../../usr/local/lib/libmongocxx.a" />
+					<Add library="../../../../../../usr/local/lib/libmongoc-priv.so" />
+					<Add library="../../../../../../usr/local/lib/libmongoc-1.0.so" />
+					<Add library="../../../../../../usr/local/lib/libglfw3.a" />
+					<Add library="../../../../../../usr/local/lib/libbsoncxx.so" />
+					<Add library="../../../../../../usr/local/lib/libbsoncxx.a" />
+					<Add library="../../../../../../usr/local/lib/libbson-1.0.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_wserialization.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_wserialization.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_wave.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_wave.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_unit_test_framework.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_unit_test_framework.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_type_erasure.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_type_erasure.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_timer.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_timer.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_thread.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_thread.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_test_exec_monitor.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_system.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_system.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_signals.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_signals.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_serialization.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_serialization.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_regex.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_regex.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_random.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_random.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_python.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_python.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_program_options.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_program_options.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_prg_exec_monitor.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_prg_exec_monitor.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_tr1l.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_tr1l.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_tr1f.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_tr1f.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_tr1.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_tr1.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_c99l.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_c99l.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_c99f.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_c99f.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_c99.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_math_c99.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_log_setup.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_log_setup.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_log.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_log.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_locale.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_locale.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_iostreams.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_iostreams.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_graph.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_graph.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_filesystem.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_filesystem.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_exception.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_date_time.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_date_time.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_coroutine.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_coroutine.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_context.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_context.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_container.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_container.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_chrono.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_chrono.a" />
+					<Add library="../../../../../../usr/local/lib/libboost_atomic.so" />
+					<Add library="../../../../../../usr/local/lib/libboost_atomic.a" />
+					<Add directory="../../../../../../usr/local/lib/boost" />
+					<Add directory="../../../../../../usr/local/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/IndividualProject_SVM" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Category.h" />
+		<Unit filename="include/ImageGetFeature.h" />
+		<Unit filename="include/MongoCaltech256.h" />
+		<Unit filename="include/MySVM.h" />
+		<Unit filename="include/TrainSVM.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Category.cpp" />
+		<Unit filename="src/ImageGetFeature.cpp" />
+		<Unit filename="src/MongoCaltech256.cpp" />
+		<Unit filename="src/MySVM.cpp" />
+		<Unit filename="src/TrainSVM.cpp" />
+		<Unit filename="test" />
+		<Unit filename="test.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
